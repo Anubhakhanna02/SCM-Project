@@ -22,7 +22,7 @@ int main() {
         while (player_choice < ROCK || player_choice > SCISSORS) {
             printf("Invalid choice! Enter your choice again (1=Rock, 2=Paper, 3=Scissors): ");
             scanf("%d", &player_choice);
-        }
+        }//hy
         int computer_choice = rand() % 3 + 1;
         printf("Computer chooses %d\n", computer_choice);
         if (player_choice == computer_choice) {
@@ -44,6 +44,7 @@ int main() {
             break;
         }
     }
-    //hiiiiiiiiiiiiiii
+    //h
+    
     return 0;
 }
